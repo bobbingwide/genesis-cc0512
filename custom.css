@@ -1,0 +1,114 @@
+/* (C) Copyright Bobbing Wide 2015 */
+/* Custom colours, sizing and spacing for genesis-cc0512 child theme */
+
+/**
+ * Field   |  Colour |  Wanted
+ * --------|---------|--------
+ * Link    | brown   | #937039  - wasn't dark enough
+ * Link    | brown   | #594527 - a bit better
+ * menu    | brown
+ * nav background |  grey | #e3e3e3
+ *
+ *
+ * - Menu smaller than the default genesis theme
+ * - Padding in tables bigger
+ * - Special styling for [bw_fields] shortcode 
+ * - left footer widget ordered list
+ */
+ 
+a { 
+        color: #594527; 
+}
+
+.nav-primary .genesis-nav-menu a:hover, 
+.nav-primary .genesis-nav-menu .current-menu-item > a, 
+.nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+        color: #594527;
+}
+
+.nav-primary .genesis-nav-menu a {
+        color: #575757;
+}
+        
+.genesis-nav-menu a:hover,
+.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+        background-color: #ffffff;
+}
+
+.site-header {
+        background-color: #e3e3e3;
+}        
+
+.nav-primary {
+        background-color: #e3e3e3; 
+} 
+
+.archive-pagination li a {
+	background-color: #594527;
+	color: #fff;
+}
+
+.archive-pagination li a:hover,
+.archive-pagination .active a {
+	background-color: #333333;
+}
+
+button:hover, 
+input:hover[type="button"], 
+input:hover[type="reset"], 
+input:hover[type="submit"], 
+.button:hover {
+        background-color: #594527;
+}
+  
+.genesis-nav-menu a {
+        padding: 10px;
+        font-weight: bold;
+}
+
+.genesis-nav-menu .sub-menu a {
+        padding: 10px;
+}
+
+div.bw_metadata {
+        margin-bottom: 5px;
+}
+
+div.bw_metadata span.label {
+        font-weight: bold;
+}
+
+.footer-widgets ol.cookie_categories li {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+aside.header-widget-area span.company { 
+        font-weight: bold;
+} 
+
+table {
+        line-height: 1.3;
+        font-size: 90%;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #eee;
+}
+
+td {
+  padding: 6px 3px;
+}  
+
+.bw_follow_me { 
+	background-color: #594527;
+}
+
+a .bw_follow_me { 
+	color: #ffffff;
+}                     
+
+
+
