@@ -1,10 +1,14 @@
 
-genesis-cc0512 v1.0 theme readme.txt
+genesis-cc0512 v1.0.1 theme readme.txt
 
 see style.css for the information required by WordPress.org
 
 
 == Changelog ==
+= 1.0.1 = 
+Changed: Screenshot
+Tested: With WordPress 4.6.1 and Genesis 2.4.2
+
 = 1.0 =
 Added: New theme based on genesis, styled to be similar to the original Artisteer theme, called cc0512 - created 12th May 2012 
 
