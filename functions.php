@@ -27,7 +27,8 @@ add_theme_support( 'custom-background' );
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
 
-add_filter( 'genesis_footer_creds_text', "cookie_cat_footer_creds_text" );
+//add_filter( 'genesis_footer_creds_text', "cookie_cat_footer_creds_text" );
+add_filter( 'genesis_pre_get_option_footer_text', 'cookie_cat_footer_creds_text' );
 
 
 function cookie_cat_footer_creds_text( $text ) {
