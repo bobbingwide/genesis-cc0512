@@ -5,6 +5,9 @@ see style.css for the information required by WordPress.org
 
 
 == Changelog ==
+= 1.2.2 = 
+* Changed: Improve accessibility of footer widgets screen reader text #12
+
 = 1.1.1 = 
 * Changed: Improve accessibility colour contrast and label for the search box #12
 * Tested: with WordPress 6.8.3
